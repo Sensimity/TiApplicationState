@@ -9,7 +9,7 @@ Adds support for the ApplicationState property to get the UIApplicationState.
 * You can now use the module via require
 
 ~~~
-var TiApplicationState = require('com.sensimity.TiApplicationState');
+var TiApplicationState = require('com.sensimity.tiapplicationstate');
 ~~~
 
 ## Properties
@@ -19,6 +19,6 @@ var TiApplicationState = require('com.sensimity.TiApplicationState');
 The <b>state</b> property is a string containing one of 3 possible values: 'background', 'active', 'inactive'. 
 
 ~~~
-var TiApplicationState = require('com.sensimity.TiApplicationState');
+var TiApplicationState = require('com.sensimity.tiapplicationstate');
 Ti.API.info("TiApplicationState is " + TiApplicationState.state);
 ~~~
