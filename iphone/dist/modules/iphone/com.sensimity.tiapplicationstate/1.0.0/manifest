@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: TiApplicationState
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2015 by Your Company
+
+# these should not be edited
+name: TiApplicationState
+moduleid: com.sensimity.tiapplicationstate
+guid: 62ac71fd-09e4-4cce-afb8-83d45b1e4442
+platform: iphone
+minsdk: 5.0.2.GA
